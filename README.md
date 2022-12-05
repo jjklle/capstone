@@ -12,8 +12,16 @@ innput에서 42개의 feature를 추출한 후, 3개의 다른 rnn(GRU)층을 �
 
 test를 위해서 noise와 clean voice를 임의로 합성하였으며, denoise를 통해 나온 결과와 비교하는 과정을 거쳤습니다.
 
-noisy : ![noisy file](https://user-images.githubusercontent.com/113290798/205589092-1bbebf1b-3db9-44f0-9ec2-2a3ee21e5f44.png)
-denoised : ![denoised file](https://user-images.githubusercontent.com/113290798/205589039-059c4fc0-2b5a-43a0-a6e4-dd8a5bb8ebde.png)
-clean voice : ![voice file](https://user-images.githubusercontent.com/113290798/205588971-b0d7db0d-3a62-48a2-93d3-df9052903487.png)
+noisy:
+
+![noisy file](https://user-images.githubusercontent.com/113290798/205589092-1bbebf1b-3db9-44f0-9ec2-2a3ee21e5f44.png)
+
+denoised:
+
+![denoised file](https://user-images.githubusercontent.com/113290798/205589039-059c4fc0-2b5a-43a0-a6e4-dd8a5bb8ebde.png)
+
+clean voice:
+
+![voice file](https://user-images.githubusercontent.com/113290798/205588971-b0d7db0d-3a62-48a2-93d3-df9052903487.png)
 
 noisy와는 다르게, clean voice와 denoised는 상당히 유사한 진폭과 진동수를 가지는 것을 확인했습니다.
